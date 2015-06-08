@@ -1,0 +1,22 @@
+lista=document.getElementsByClassName("highlight");
+for (i=0; i < lista.length; i++){ 
+aux=lista[i].textContent;
+console.log("$$$$$");
+console.log(aux);
+}
+$$$$$
+li a {
+    color: green;
+}
+
+$$$$$
+{% load staticfiles %}
+
+<link rel="stylesheet" type="text/css" href="{% static 'polls/style.css' %}" />
+
+$$$$$
+body {
+    background: white url("images/background.gif") no-repeat right bottom;
+}
+
+undefined

@@ -1,0 +1,21 @@
+lista=document.getElementsByClassName("highlight");
+for (i=0; i < lista.length; i++){ 
+aux=lista[i].textContent;
+console.log("$$$$$");
+console.log(aux);
+}
+$$$$$
+$ grep -r max_length /path/to/django/docs/
+
+$$$$$
+$ pip install Sphinx
+
+$$$$$
+$ cd path/to/django/docs
+$ make html
+
+$$$$$
+cd path\to\django\docs
+make.bat html
+
+undefined
